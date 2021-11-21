@@ -1,0 +1,71 @@
+﻿using UnityEngine;
+
+public class Tank : MonoBehaviour
+{
+	float moveSpeed;
+	float angle;
+	float desiredAngle;
+	public GameObject shot;
+	internal int idx;
+
+	internal float move = 0f;
+	internal float rotate = 0f;
+	internal string lastCommand = "";
+	internal float shoot = 0f;
+
+	public void Start()
+	{
+		angle = gameObject.transform.eulerAngles.y;
+		desiredAngle = angle;
+	}
+
+	public void Update()
+	{
+		var direction = gameObject.transform.rotation * Vector3.forward;
+		gameObject.transform.position += direction * moveSpeed / 10f;
+		moveSpeed *= 0.95f;
+
+		if (angle > desiredAngle && angle - desiredAngle > 180)
+			desiredAngle += 360;
+		angle += (desiredAngle - angle) / 20f;
+		gameObject.transform.rotation = Quaternion.Euler(0f, angle, 0f);
+	}
+
+	internal void ExecuteCommands()
+	{
+		if (lastCommand == "move")
+		{
+			if (rotate != 0f) desiredAngle = angle + rotate;
+			if (move != 0f) moveSpeed += move;
+		}
+		else if (lastCommand == "rotate")
+		{
+			if (move != 0f) moveSpeed += move;
+			if (rotate != 0f) desiredAngle = angle + rotate;
+		}
+		if (shoot != 0f) Shoot(shoot);
+	}
+
+	internal void Move(float distance)
+	{
+		lastCommand = "move";
+		move = distance;
+	}
+
+	internal void Rotate(float angle)
+	{
+		lastCommand = "rotate";
+		rotate = angle;
+	}
+
+	internal void Shoot(float distance)
+	{
+		var delta = gameObject.transform.rotation * new Vector3(0f, 0f, 4f);
+		var start = gameObject.transform.position + delta;
+		start.y = 3.5f;
+		var shotInstance = Instantiate(shot, start, Quaternion.Euler(0, Random.Range(0, 360), 0));
+		shotInstance.transform.localScale = new Vector3(2, 2, 2);
+
+		Game.GetInstance().MakeBullet(idx, start, gameObject.transform.eulerAngles.y, distance);
+	}
+}

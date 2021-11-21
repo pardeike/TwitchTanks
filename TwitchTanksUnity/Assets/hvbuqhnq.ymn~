@@ -1,0 +1,38 @@
+﻿using UnityEngine;
+
+public class Tank : MonoBehaviour
+{
+	//Vector3 pos;
+	//float angle;
+	float speed;
+
+	/*public void Start()
+	{
+		pos = gameObject.transform.position;
+		angle = gameObject.transform.eulerAngles.y;
+	}*/
+
+	public void Update()
+	{
+		var direction = gameObject.transform.eulerAngles;
+		direction.x = 0;
+		direction.z = 0;
+		gameObject.transform.position += direction * speed / 100f;
+		speed *= 0.95f;
+	}
+
+	internal void Move(float amount)
+	{
+		speed += amount;
+	}
+
+	internal void Rotate(float angle)
+	{
+		gameObject.transform.Rotate(Vector3.up, angle);
+	}
+
+	internal void Shoot(float distance)
+	{
+		_ = distance;
+	}
+}

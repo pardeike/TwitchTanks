@@ -1,0 +1,118 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
+
+public class Tank : MonoBehaviour
+{
+	public enum StepType
+	{
+		move,
+		rotate,
+		shoot
+	}
+
+	public class Step
+	{
+		public StepType type;
+		public float[] parameters;
+	}
+
+	float desiredMove;
+	float angle;
+	float desiredAngle;
+	List<Step> steps = new List<Step>();
+	internal int idx;
+
+	internal float move = 0f;
+	internal float rotate = 0f;
+	internal string lastCommand = "";
+	internal float shoot = 0f;
+
+	public void Start()
+	{
+		angle = gameObject.transform.eulerAngles.y;
+		desiredAngle = angle;
+	}
+
+	public void Update()
+	{
+		if (desiredMove != 0)
+		{
+			var sign = Mathf.Sign(desiredMove);
+			var direction = gameObject.transform.rotation * Vector3.forward;
+			gameObject.transform.position += direction / 10f;
+			desiredMove -= sign * 0.1f;
+			if (sign > 0 && desiredMove < 0) desiredMove = 0f;
+			if (sign < 0 && desiredMove > 0) desiredMove = 0f;
+		}
+
+		if (angle > desiredAngle && angle - desiredAngle > 180)
+			desiredAngle += 360;
+		if (Mathf.Abs(angle - desiredAngle) < 1f)
+			angle = desiredAngle;
+		else
+			angle += (desiredAngle - angle) / 20f;
+
+		gameObject.transform.rotation = Quaternion.Euler(0f, angle, 0f);
+	}
+
+	internal bool IsStatic() => moveSpeed == 0f && angle == desiredAngle;
+
+	internal void ExecuteCommands(Action completionCallback)
+	{
+		_ = StartCoroutine(Stepper(completionCallback));
+	}
+
+	IEnumerator Stepper(Action completionCallback)
+	{
+		while (steps.Count > 0)
+		{
+			var step = steps[0];
+			steps.RemoveAt(0);
+			switch (step.type)
+			{
+				case StepType.move:
+					moveSpeed += step.parameters[0];
+					yield return null;
+					break;
+				case StepType.rotate:
+					desiredAngle = angle + step.parameters[0];
+					yield return null;
+					break;
+				case StepType.shoot:
+					var delta = gameObject.transform.rotation * new Vector3(0f, 0f, 4f);
+					var start = gameObject.transform.position + delta;
+					start.y = 3.5f;
+					Game.GetInstance().MakeBullet(idx, start, gameObject.transform.eulerAngles.y, step.parameters[0]);
+					yield return null;
+					break;
+			}
+			while (IsStatic() == false)
+				yield return null;
+		}
+		completionCallback();
+	}
+
+	void SetStep(StepType type, params float[] parameters)
+	{
+		steps = steps.Where(step => step.type != type).ToList();
+		steps.Add(new Step() { type = type, parameters = parameters });
+	}
+
+	internal void Move(float distance)
+	{
+		SetStep(StepType.move, distance);
+	}
+
+	internal void Rotate(float angle)
+	{
+		SetStep(StepType.rotate, angle);
+	}
+
+	internal void Shoot(float distance)
+	{
+		SetStep(StepType.rotate, distance);
+	}
+}

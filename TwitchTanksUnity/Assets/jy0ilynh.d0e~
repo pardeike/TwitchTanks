@@ -1,0 +1,181 @@
+﻿using System.Collections.Concurrent;
+using System.Collections.Generic;
+using System.Linq;
+using TwitchChatConnect.Client;
+using TwitchChatConnect.Config;
+using TwitchChatConnect.Data;
+using UnityEngine;
+
+public class Game : MonoBehaviour
+{
+	TwitchChatClient twitchChat;
+	public TwitchConnectData initTwitchConnectData;
+
+	public GameObject[] tankPrefabs;
+	public GameObject[] bulletPrefabs;
+	public GameObject shot;
+	public GameObject explosion;
+	bool started = false;
+
+	readonly ConcurrentQueue<TwitchUser> waiting = new ConcurrentQueue<TwitchUser>();
+	readonly Dictionary<TwitchUser, Tank> tanks = new Dictionary<TwitchUser, Tank>();
+
+	internal static Game GetInstance()
+	{
+		return GameObject.Find("Game").GetComponent<Game>();
+	}
+
+	public void Start()
+	{
+		twitchChat = GetComponent<TwitchChatClient>();
+		Debug.LogWarning($"Twitch connecting...");
+		twitchChat.Init(initTwitchConnectData.TwitchConnectConfig, () =>
+		{
+			Debug.LogWarning($"Twitch connected");
+			_ = twitchChat.SendChatMessage($"Twitch Tanks ready!", 1);
+			twitchChat.onChatCommandReceived += TwitchCommand;
+			started = true;
+		},
+		error => Debug.LogError($"Twitch connected error: {error}"));
+	}
+
+	void TwitchCommand(TwitchChatCommand command)
+	{
+		var user = command.User;
+		var args = new List<string>(command.Message.Split(' '));
+		var msg = args[0].ToLower();
+		args.RemoveAt(0);
+		Debug.LogWarning($"[{msg}] [{command.Message}]");
+		switch (msg)
+		{
+			case "!about":
+				_ = twitchChat.SendChatMessage("Instructions:\n" +
+					"Write \"!join\" to enter the battle (or the queue if area has already 4 tanks)\n" +
+					"Once in control write \"!move +/-N\" to move your tank N units forwards/backwards\n" +
+					"Once in control write \"!turn +/-D\" to rotate your tank D degrees\n" +
+					"Once in control write \"!shoot N\" to shoot at distance N\n" +
+					"Tanks execute in turns and only ever with max 1 move and max 1 turn command\n" +
+					"Good luck!", 1);
+				break;
+			case "!join":
+				if (waiting.Contains(user))
+				{
+					var waitingUsers = waiting.ToArray();
+					for (var i = 0; i < waitingUsers.Length; i++)
+						if (waitingUsers[i] == user)
+							_ = twitchChat.SendChatMessage($"@{user.DisplayName} You are already #{i + 1} in the tank queue", 1);
+				}
+				else
+				{
+					if (waiting.Count < 4)
+						tanks[user] = MakeTank(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
+					else
+					{
+						waiting.Enqueue(user);
+						_ = twitchChat.SendChatMessage($"@{user.DisplayName} You are now #{waiting.Count} in the tank queue", 1);
+					}
+				}
+				break;
+			case "!move":
+				if (args.Count != 1) break;
+				if (float.TryParse(args[0], out var moveDistance) == false) break;
+				Move(moveDistance);
+				break;
+			case "!turn":
+				if (args.Count != 1) break;
+				if (float.TryParse(args[0], out var angle) == false) break;
+				Rotate(angle);
+				break;
+			case "!shoot":
+				if (args.Count != 1) break;
+				if (float.TryParse(args[0], out var shootDistance) == false) break;
+				Shoot(shootDistance);
+				break;
+		}
+	}
+
+	public void Update()
+	{
+		if (started && twitchChat.IsConnected() == false)
+		{
+			Debug.LogError("Reconnecting...");
+			twitchChat.Login();
+		}
+
+		while (tanks.Count < 4 && waiting.Count > 0)
+		{
+			if (waiting.TryDequeue(out var user))
+			{
+				_ = twitchChat.SendChatMessage($"@{user.DisplayName} You have entered the tank battle!", 1);
+				tanks[user] = MakeTank(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
+			}
+		}
+
+		if (Input.GetKeyDown(KeyCode.W)) Move(5);
+		if (Input.GetKeyDown(KeyCode.S)) Move(-5);
+		if (Input.GetKeyDown(KeyCode.A)) Rotate(-45);
+		if (Input.GetKeyDown(KeyCode.D)) Rotate(45);
+		if (Input.GetKeyDown(KeyCode.Space)) Shoot(50);
+	}
+
+	void Move(float distance)
+	{
+		foreach (var tank in tanks.Values)
+			tank.Move(distance);
+	}
+
+	void Rotate(float angle)
+	{
+		foreach (var tank in tanks.Values)
+			tank.Rotate(angle);
+	}
+
+	void Shoot(float distance)
+	{
+		foreach (var tank in tanks.Values)
+		{
+			var start = tank.Shoot();
+			MakeBullet(tank.idx, start, tank.gameObject.transform.eulerAngles.y, distance);
+		}
+	}
+
+	Tank MakeTank(float x, float z)
+	{
+		var idx = Random.Range(0, 4);
+		var angle = Random.Range(0f, 360f);
+		var obj = Instantiate(tankPrefabs[idx], new Vector3(x * 77f, 1.45f, z * 41f), Quaternion.Euler(0f, angle, 0f));
+		obj.transform.localScale = new Vector3(2, 2, 2);
+		var tank = obj.GetComponent<Tank>();
+		tank.shot = shot;
+		tank.idx = idx;
+		return tank;
+	}
+
+	void MakeBullet(int idx, Vector3 start, float angle, float distance)
+	{
+		var quat = Quaternion.Euler(0f, angle, 0f);
+		var obj = Instantiate(bulletPrefabs[idx], start, quat);
+		obj.transform.localScale = new Vector3(2, 2, 2);
+		var bullet = obj.GetComponent<Bullet>();
+		bullet.idx = idx;
+		bullet.destination = start + quat * (Vector3.forward * distance);
+		bullet.distance = distance;
+	}
+
+	internal void Explode(Vector3 position)
+	{
+		var obj = Instantiate(explosion, position, Quaternion.Euler(0, Random.Range(0, 360), 0));
+		obj.transform.localScale = new Vector3(2, 2, 2);
+		var tanksCopy = new List<Tank>(tanks.Values);
+		foreach (var tank in tanksCopy)
+		{
+			var tankPos = tank.gameObject.transform.position;
+			if ((tankPos - position).magnitude <= 5f)
+			{
+				tanks.RemoveByValue(tank);
+				Destroy(tank.gameObject);
+				_ = Instantiate(explosion, tankPos, Quaternion.Euler(0, Random.Range(0, 360), 0));
+			}
+		}
+	}
+}
