@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 263262785518497054}
   - component: {fileID: 8111747552132786935}
   - component: {fileID: 2651427542499744173}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: "\u0421TF_Missile_Yel"
   m_TagString: Untagged
   m_Icon: {fileID: 0}

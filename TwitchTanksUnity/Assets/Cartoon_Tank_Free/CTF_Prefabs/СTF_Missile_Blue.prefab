@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2302577631212875841}
   - component: {fileID: 7836717825834629032}
   - component: {fileID: -291979899342185802}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: "\u0421TF_Missile_Blue"
   m_TagString: Untagged
   m_Icon: {fileID: 0}

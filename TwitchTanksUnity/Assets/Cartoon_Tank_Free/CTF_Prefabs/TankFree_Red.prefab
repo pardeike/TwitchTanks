@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3631182569085828574}
   - component: {fileID: 6603361179781189605}
   - component: {fileID: 8207418915925417895}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TankFree_Wheel_b_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 2063947290855744239}
   - component: {fileID: 3463857935435935094}
   - component: {fileID: 5139572866538866116}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TankFree_Tower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,7 +176,7 @@ GameObject:
   - component: {fileID: 4083431937752462153}
   - component: {fileID: 4419567447973695573}
   - component: {fileID: 2577482948572295523}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TankFree_Canon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,7 +259,9 @@ GameObject:
   - component: {fileID: 9170957963805065750}
   - component: {fileID: 6530804518502666957}
   - component: {fileID: -8497287390303662819}
-  m_Layer: 0
+  - component: {fileID: 4511224243636521970}
+  - component: {fileID: 3560498438409419102}
+  m_Layer: 7
   m_Name: TankFree_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,6 +349,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4d81e5c8e4bf4c44b412eb600b5fea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &4511224243636521970
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3503318476722469206}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 1
+  m_AngularDrag: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &3560498438409419102
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3503318476722469206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.9107852, y: 1.66, z: 2.48}
+  m_Center: {x: 0.0000003874302, y: 0.06295732, z: -0.038929284}
 --- !u!1 &3745786531496338126
 GameObject:
   m_ObjectHideFlags: 0
@@ -358,7 +389,7 @@ GameObject:
   - component: {fileID: 3312167451838146087}
   - component: {fileID: 2582761013081684708}
   - component: {fileID: 7409220747806113731}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TankFree_Wheel_f_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -440,7 +471,7 @@ GameObject:
   - component: {fileID: 9177045630194580144}
   - component: {fileID: 7941413351552715582}
   - component: {fileID: 6726093497014336210}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TankFree_Wheel_b_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -522,7 +553,7 @@ GameObject:
   - component: {fileID: 301532880387059874}
   - component: {fileID: 208408940938093818}
   - component: {fileID: 2868187183817814119}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TankFree_Wheel_f_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}

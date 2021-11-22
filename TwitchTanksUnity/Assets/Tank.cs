@@ -61,6 +61,22 @@ public class Tank : MonoBehaviour
 		if (shootDelay < 0f) shootDelay = 0f;
 	}
 
+	public void OnTriggerEnter(Collider collider)
+	{
+		Debug.LogWarning($"Tank {idx} collided with {collider}");
+
+		if (collider.gameObject.layer == LayerMask.NameToLayer("Danger"))
+			Game.GetInstance().Explode(gameObject.transform.position);
+	}
+
+	public void OnCollisionEnter(Collision collision)
+	{
+		Debug.LogWarning($"Tank {idx} collided with {collision}");
+
+		if (collision.gameObject.layer == LayerMask.NameToLayer("Danger"))
+			Game.GetInstance().Explode(gameObject.transform.position);
+	}
+
 	internal bool IsStatic() => desiredMove == 0f && angle == desiredAngle && shootDelay == 0f;
 
 	internal void ExecuteCommands(Action completionCallback)

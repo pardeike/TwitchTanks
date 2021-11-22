@@ -269,7 +269,7 @@ public class Game : MonoBehaviour
 		foreach (var pair in tanks) availIndices.RemoveByValue(pair.Value.idx);
 		var idx = availIndices.RandomElement();
 		var angle = Random.Range(0f, 360f);
-		var obj = Instantiate(tankPrefabs[idx], new Vector3(x * 77f, 1.45f, z * 41f), Quaternion.Euler(0f, angle, 0f));
+		var obj = Instantiate(tankPrefabs[idx], new Vector3(x * 77f, 2f, z * 41f), Quaternion.Euler(0f, angle, 0f));
 		obj.transform.localScale = new Vector3(2, 2, 2);
 		var tank = obj.GetComponent<Tank>();
 		tank.idx = idx;
