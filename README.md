@@ -2,6 +2,8 @@
 
 With TwitchTanks you can create a tank game overlay for your twitch stream and your viewers can use chat commands to control up to four tanks and battle each other.
 
+<img src="https://github.com/pardeike/TwitchTanks/raw/master/Originals/screenshot.jpg"/>
+
 # Setup
 
 - Download the latest [release](https://github.com/pardeike/TwitchTanks/releases/latest) and unzip it into a folder `TwitchTanks`
