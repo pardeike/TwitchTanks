@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637730116707484994
-    m_Hash: 3355511664
+      ticks: 637735438330528379
+    m_Hash: 745832552
   m_LockFileStatus:
     m_FilePath: C:/Users/andre/Source/Repos/TwitchTanks/TwitchTanksUnity/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637730116707555027
-    m_Hash: 2191527527
+      ticks: 637735438330608376
+    m_Hash: 2600608018
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -374,6 +374,200 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.2.3
+    nextVersion: 
+- packageId: com.unity.render-pipelines.high-definition@11.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 11.0.0
+  source: 2
+  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.render-pipelines.high-definition@11.0.0
+  assetPath: Packages/com.unity.render-pipelines.high-definition
+  name: com.unity.render-pipelines.high-definition
+  displayName: High Definition RP
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The High Definition Render Pipeline (HDRP) is a high-fidelity Scriptable
+    Render Pipeline built by Unity to target modern (Compute Shader compatible) platforms.
+    HDRP utilizes Physically-Based Lighting techniques, linear lighting, HDR lighting,
+    and a configurable hybrid Tile/Cluster deferred/Forward lighting architecture
+    and gives you the tools you need to create games, technical demos, animations,
+    and more to a high graphical standard.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.1.21
+    - 0.1.27
+    - 0.1.28
+    - 1.0.0-beta
+    - 1.0.1-beta
+    - 1.1.1-preview
+    - 1.1.2-preview
+    - 1.1.4-preview
+    - 1.1.5-preview
+    - 1.1.8-preview
+    - 1.1.10-preview
+    - 1.1.11-preview
+    - 2.0.1-preview
+    - 2.0.3-preview
+    - 2.0.4-preview
+    - 2.0.4-preview.1
+    - 2.0.5-preview
+    - 2.0.6-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 3.0.0-preview
+    - 3.1.0-preview
+    - 3.3.0-preview
+    - 4.0.0-preview
+    - 4.0.1-preview
+    - 4.1.0-preview
+    - 4.2.0-preview
+    - 4.3.0-preview
+    - 4.6.0-preview
+    - 4.8.0-preview
+    - 4.9.0-preview
+    - 4.10.0-preview
+    - 5.0.0-preview
+    - 5.1.0-preview
+    - 5.2.0-preview
+    - 5.2.1-preview
+    - 5.2.2-preview
+    - 5.2.3-preview
+    - 5.3.1-preview
+    - 5.6.1-preview
+    - 5.7.2-preview
+    - 5.8.2-preview
+    - 5.9.0-preview
+    - 5.10.0-preview
+    - 5.13.0-preview
+    - 5.16.1-preview
+    - 6.5.2-preview
+    - 6.5.3-preview
+    - 6.7.1-preview
+    - 6.9.0-preview
+    - 6.9.1-preview
+    - 6.9.2-preview
+    - 7.0.0
+    - 7.0.1
+    - 7.1.1
+    - 7.1.2
+    - 7.1.5
+    - 7.1.6
+    - 7.1.7
+    - 7.1.8
+    - 7.2.0
+    - 7.2.1
+    - 7.3.1
+    - 7.4.1
+    - 7.4.2
+    - 7.4.3
+    - 7.5.1
+    - 7.5.2
+    - 7.5.3
+    - 7.6.0
+    - 7.7.0
+    - 7.7.1
+    - 8.0.1
+    - 8.1.0
+    - 8.2.0
+    - 8.3.1
+    - 9.0.0-preview.13
+    - 9.0.0-preview.33
+    - 9.0.0-preview.54
+    - 9.0.0-preview.71
+    - 10.0.0-preview.27
+    - 10.1.0
+    - 10.2.0
+    - 10.2.1
+    - 10.2.2
+    - 10.3.1
+    - 10.3.2
+    - 10.4.0
+    - 10.5.0
+    - 10.5.1
+    - 10.6.0
+    - 10.7.0
+    - 11.0.0
+    compatible:
+    - 11.0.0
+    verified: 11.0.0
+  dependencies:
+  - name: com.unity.modules.video
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.render-pipelines.core
+    version: 11.0.0
+  - name: com.unity.shadergraph
+    version: 11.0.0
+  - name: com.unity.visualeffectgraph
+    version: 11.0.0
+  - name: com.unity.render-pipelines.high-definition-config
+    version: 11.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.video
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.render-pipelines.core
+    version: 11.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.shadergraph
+    version: 11.0.0
+  - name: com.unity.searcher
+    version: 4.3.2
+  - name: com.unity.visualeffectgraph
+    version: 11.0.0
+  - name: com.unity.render-pipelines.high-definition-config
+    version: 11.0.0
+  keywords:
+  - graphics
+  - performance
+  - rendering
+  - render
+  - pipeline
+  registry:
+    id: 
+    name: 
+    url: 
+    scopes: []
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 11.0.0
     nextVersion: 
 - packageId: com.unity.test-framework@1.1.30
   testable: 0
@@ -1050,6 +1244,74 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.6.1
+    nextVersion: 
+- packageId: jp.keijiro.klak.spout@2.0.3
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.3
+  source: 1
+  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\jp.keijiro.klak.spout@2.0.3
+  assetPath: Packages/jp.keijiro.klak.spout
+  name: jp.keijiro.klak.spout
+  displayName: KlakSpout
+  author:
+    name: Keijiro Takahashi
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Cross-process texture sharing plugin (Spout protocol)
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.1
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    compatible:
+    - 1.0.0
+    - 1.0.1
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    verified: 
+  dependencies:
+  - name: com.unity.modules.screencapture
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.screencapture
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  keywords:
+  - unity
+  registry:
+    id: scoped:Keijiro
+    name: Keijiro
+    url: https://registry.npmjs.com
+    scopes:
+    - jp.keijiro
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637634904256120000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/keijiro/KlakSpout.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
@@ -3100,6 +3362,558 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.6
     nextVersion: 
+- packageId: com.unity.render-pipelines.core@11.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 11.0.0
+  source: 2
+  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.render-pipelines.core@11.0.0
+  assetPath: Packages/com.unity.render-pipelines.core
+  name: com.unity.render-pipelines.core
+  displayName: Core RP Library
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: SRP Core makes it easier to create or customize a Scriptable Render
+    Pipeline (SRP). SRP Core contains reusable code, including boilerplate code for
+    working with platform-specific graphics APIs, utility functions for common rendering
+    operations, and  shader libraries. The code in SRP Core is use by the High Definition
+    Render Pipeline (HDRP) and Universal Render Pipeline (URP). If you are creating
+    a custom SRP from scratch or customizing a prebuilt SRP, using SRP Core will
+    save you time.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.1.21
+    - 0.1.27
+    - 0.1.28
+    - 1.0.0-beta
+    - 1.0.1-beta
+    - 1.1.1-preview
+    - 1.1.2-preview
+    - 1.1.4-preview
+    - 1.1.5-preview
+    - 1.1.8-preview
+    - 1.1.10-preview
+    - 1.1.11-preview
+    - 2.0.1-preview
+    - 2.0.3-preview
+    - 2.0.4-preview
+    - 2.0.4-preview.1
+    - 2.0.5-preview
+    - 2.0.6-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 3.0.0-preview
+    - 3.1.0-preview
+    - 3.3.0-preview
+    - 4.0.0-preview
+    - 4.0.1-preview
+    - 4.1.0-preview
+    - 4.2.0-preview
+    - 4.3.0-preview
+    - 4.6.0-preview
+    - 4.8.0-preview
+    - 4.9.0-preview
+    - 4.10.0-preview
+    - 5.0.0-preview
+    - 5.1.0
+    - 5.2.0
+    - 5.2.1
+    - 5.2.2
+    - 5.2.3
+    - 5.3.1
+    - 5.6.1
+    - 5.7.2
+    - 5.8.2
+    - 5.9.0
+    - 5.10.0
+    - 5.13.0
+    - 5.16.1
+    - 6.5.2
+    - 6.5.3
+    - 6.7.1
+    - 6.9.0
+    - 6.9.1
+    - 6.9.2
+    - 7.0.0
+    - 7.0.1
+    - 7.1.1
+    - 7.1.2
+    - 7.1.5
+    - 7.1.6
+    - 7.1.7
+    - 7.1.8
+    - 7.2.0
+    - 7.2.1
+    - 7.3.1
+    - 7.4.1
+    - 7.4.2
+    - 7.4.3
+    - 7.5.1
+    - 7.5.2
+    - 7.5.3
+    - 7.6.0
+    - 7.7.0
+    - 7.7.1
+    - 8.0.1
+    - 8.1.0
+    - 8.2.0
+    - 8.3.1
+    - 9.0.0-preview.13
+    - 9.0.0-preview.35
+    - 9.0.0-preview.38
+    - 9.0.0-preview.60
+    - 9.0.0-preview.77
+    - 10.0.0-preview.30
+    - 10.1.0
+    - 10.2.0
+    - 10.2.1
+    - 10.2.2
+    - 10.3.1
+    - 10.3.2
+    - 10.4.0
+    - 10.5.0
+    - 10.5.1
+    - 10.6.0
+    - 10.7.0
+    - 11.0.0
+    compatible:
+    - 11.0.0
+    verified: 11.0.0
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: 
+    name: 
+    url: 
+    scopes: []
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 11.0.0
+    nextVersion: 
+- packageId: com.unity.shadergraph@11.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 11.0.0
+  source: 2
+  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.shadergraph@11.0.0
+  assetPath: Packages/com.unity.shadergraph
+  name: com.unity.shadergraph
+  displayName: Shader Graph
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The Shader Graph package adds a visual Shader editing tool to Unity.
+    You can use this tool to create Shaders in a visual way instead of writing code.
+    Specific render pipelines can implement specific graph features. Currently, both
+    the High Definition Rendering Pipeline and the Universal Rendering Pipeline support
+    Shader Graph.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.1.8
+    - 0.1.9
+    - 0.1.17
+    - 1.0.0-beta
+    - 1.1.1-preview
+    - 1.1.2-preview
+    - 1.1.3-preview
+    - 1.1.4-preview
+    - 1.1.5-preview
+    - 1.1.6-preview
+    - 1.1.8-preview
+    - 1.1.9-preview
+    - 2.0.1-preview
+    - 2.0.3-preview
+    - 2.0.4-preview
+    - 2.0.4-preview.1
+    - 2.0.5-preview
+    - 2.0.6-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 3.0.0-preview
+    - 3.1.0-preview
+    - 3.3.0-preview
+    - 4.0.0-preview
+    - 4.0.1-preview
+    - 4.1.0-preview
+    - 4.2.0-preview
+    - 4.3.0-preview
+    - 4.6.0-preview
+    - 4.8.0-preview
+    - 4.9.0-preview
+    - 4.10.0-preview
+    - 5.0.0-preview
+    - 5.1.0
+    - 5.2.0
+    - 5.2.1
+    - 5.2.2
+    - 5.2.3
+    - 5.3.1
+    - 5.6.1
+    - 5.7.2
+    - 5.8.2
+    - 5.9.0
+    - 5.10.0
+    - 5.13.0
+    - 5.16.1
+    - 6.5.2
+    - 6.5.3
+    - 6.7.1
+    - 6.9.0
+    - 6.9.1
+    - 6.9.2
+    - 7.0.0
+    - 7.0.1
+    - 7.1.1
+    - 7.1.2
+    - 7.1.5
+    - 7.1.6
+    - 7.1.7
+    - 7.1.8
+    - 7.2.0
+    - 7.2.1
+    - 7.3.1
+    - 7.4.1
+    - 7.4.2
+    - 7.4.3
+    - 7.5.1
+    - 7.5.2
+    - 7.5.3
+    - 7.6.0
+    - 7.7.0
+    - 7.7.1
+    - 8.0.1
+    - 8.1.0
+    - 8.2.0
+    - 8.3.1
+    - 9.0.0-preview.14
+    - 9.0.0-preview.34
+    - 9.0.0-preview.55
+    - 9.0.0-preview.72
+    - 10.0.0-preview.27
+    - 10.1.0
+    - 10.2.0
+    - 10.2.1
+    - 10.2.2
+    - 10.3.1
+    - 10.3.2
+    - 10.4.0
+    - 10.5.0
+    - 10.5.1
+    - 10.6.0
+    - 10.7.0
+    - 11.0.0
+    compatible:
+    - 11.0.0
+    verified: 11.0.0
+  dependencies:
+  - name: com.unity.render-pipelines.core
+    version: 11.0.0
+  - name: com.unity.searcher
+    version: 4.3.1
+  resolvedDependencies:
+  - name: com.unity.render-pipelines.core
+    version: 11.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.searcher
+    version: 4.3.2
+  keywords: []
+  registry:
+    id: 
+    name: 
+    url: 
+    scopes: []
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 11.0.0
+    nextVersion: 
+- packageId: com.unity.visualeffectgraph@11.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 11.0.0
+  source: 2
+  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.visualeffectgraph@11.0.0
+  assetPath: Packages/com.unity.visualeffectgraph
+  name: com.unity.visualeffectgraph
+  displayName: Visual Effect Graph
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The Visual Effect Graph is a node based visual effect editor. It allows
+    you to author next generation visual effects that Unity simulates directly on
+    the GPU. The Visual Effect Graph is production-ready for the High Definition
+    Render Pipeline and runs on all platforms supported by it. Full support for the
+    Universal Render Pipeline and compatible mobile devices is still in development.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 4.3.0-preview
+    - 4.6.0-preview
+    - 4.8.0-preview
+    - 4.9.0-preview
+    - 4.10.0-preview
+    - 5.2.0-preview
+    - 5.2.1-preview
+    - 5.2.3-preview
+    - 5.3.1-preview
+    - 5.6.1-preview
+    - 5.7.2-preview
+    - 5.8.2-preview
+    - 5.10.0-preview
+    - 5.13.0-preview
+    - 5.16.1-preview
+    - 6.5.2-preview
+    - 6.5.3-preview
+    - 6.7.1-preview
+    - 6.9.0-preview
+    - 6.9.1-preview
+    - 6.9.2-preview
+    - 7.0.0
+    - 7.0.1
+    - 7.1.1
+    - 7.1.2
+    - 7.1.5
+    - 7.1.6
+    - 7.1.7
+    - 7.1.8
+    - 7.2.0
+    - 7.2.1
+    - 7.3.1
+    - 7.4.1
+    - 7.4.2
+    - 7.4.3
+    - 7.5.1
+    - 7.5.2
+    - 7.5.3
+    - 7.6.0
+    - 7.7.0
+    - 7.7.1
+    - 8.0.1
+    - 8.1.0
+    - 8.2.0
+    - 8.3.1
+    - 9.0.0-preview.13
+    - 9.0.0-preview.33
+    - 9.0.0-preview.54
+    - 9.0.0-preview.71
+    - 10.0.0-preview.27
+    - 10.1.0
+    - 10.2.0
+    - 10.2.1
+    - 10.2.2
+    - 10.3.1
+    - 10.3.2
+    - 10.4.0
+    - 10.5.0
+    - 10.5.1
+    - 10.6.0
+    - 10.7.0
+    - 11.0.0
+    compatible:
+    - 11.0.0
+    verified: 11.0.0
+  dependencies:
+  - name: com.unity.shadergraph
+    version: 11.0.0
+  - name: com.unity.render-pipelines.core
+    version: 11.0.0
+  resolvedDependencies:
+  - name: com.unity.shadergraph
+    version: 11.0.0
+  - name: com.unity.render-pipelines.core
+    version: 11.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.searcher
+    version: 4.3.2
+  keywords:
+  - vfx
+  - visualeffect
+  - graph
+  - effect
+  - particles
+  registry:
+    id: 
+    name: 
+    url: 
+    scopes: []
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 11.0.0
+    nextVersion: 
+- packageId: com.unity.render-pipelines.high-definition-config@11.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 11.0.0
+  source: 2
+  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.render-pipelines.high-definition-config@11.0.0
+  assetPath: Packages/com.unity.render-pipelines.high-definition-config
+  name: com.unity.render-pipelines.high-definition-config
+  displayName: High Definition RP Config
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Configuration files for the High Definition Render Pipeline.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 7.0.0
+    - 7.0.1
+    - 7.1.1
+    - 7.1.2
+    - 7.1.5
+    - 7.1.6
+    - 7.1.7
+    - 7.1.8
+    - 7.2.0
+    - 7.2.1
+    - 7.3.1
+    - 7.4.1
+    - 7.4.2
+    - 7.4.3
+    - 7.5.1
+    - 7.5.2
+    - 8.0.1
+    - 8.1.0
+    - 8.2.0
+    - 8.3.1
+    - 9.0.0-preview.15
+    - 9.0.0-preview.35
+    - 9.0.0-preview.57
+    - 9.0.0-preview.74
+    - 10.0.0-preview.27
+    - 10.1.0
+    - 10.2.0
+    - 10.2.1
+    - 10.2.2
+    - 11.0.0
+    compatible:
+    - 11.0.0
+    verified: 11.0.0
+  dependencies:
+  - name: com.unity.render-pipelines.core
+    version: 11.0.0
+  resolvedDependencies:
+  - name: com.unity.render-pipelines.core
+    version: 11.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: 
+    name: 
+    url: 
+    scopes: []
+    isDefault: 0
+    capabilities: 0
+  hasRegistry: 0
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 11.0.0
+    nextVersion: 
 - packageId: com.unity.nuget.newtonsoft-json@2.0.0
   testable: 0
   isDirectDependency: 0
@@ -3170,4 +3984,74 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 2.0.0
+    nextVersion: 
+- packageId: com.unity.searcher@4.3.2
+  testable: 0
+  isDirectDependency: 0
+  version: 4.3.2
+  source: 1
+  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.searcher@4.3.2
+  assetPath: Packages/com.unity.searcher
+  name: com.unity.searcher
+  displayName: Searcher
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: General search window for use in the Editor. First target use is for
+    GraphView node search.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 4.0.0-preview
+    - 4.0.0
+    - 4.0.7-preview
+    - 4.0.7
+    - 4.0.8-preview
+    - 4.0.9
+    - 4.1.0-preview
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.3.1
+    - 4.3.2
+    - 4.6.0-preview
+    - 4.7.0-preview
+    - 4.9.1
+    compatible:
+    - 4.3.2
+    - 4.6.0-preview
+    - 4.7.0-preview
+    - 4.9.1
+    verified: 4.3.2
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - search
+  - searcher
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637509898070000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
+    revision: 798bfb84c8f09f7788a3a88c3c16d72c50451530
+    path: 
+  unityLifecycle:
+    version: 4.3.2
     nextVersion: 

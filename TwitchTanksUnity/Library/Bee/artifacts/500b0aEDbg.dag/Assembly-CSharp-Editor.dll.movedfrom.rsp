@@ -1,5 +1,14 @@
 Library\Bee\artifacts\movedfrom\Unity.PlasticSCM.Editor.ref.dll_493444719256685566.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.RenderPipelines.Core.Editor.ref.dll_3573264052245636665.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.RenderPipelines.Core.Runtime.ref.dll_2091737863950630882.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.RenderPipelines.Core.ShaderLibrary.ref.dll_5974714287071046384.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.RenderPipelines.HighDefinition.Config.Runtime.ref.dll_10538228487147387778.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.RenderPipelines.HighDefinition.Editor.ref.dll_1670496903958374643.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.RenderPipelines.HighDefinition.Runtime.ref.dll_3598917248979070088.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.ref.dll_5985416562273433328.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.Rider.Editor.ref.dll_9818923340426081415.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.Searcher.Editor.ref.dll_7325514028857339062.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.ShaderGraph.Editor.ref.dll_16610591974358648744.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.Sysroot.Linux_x86_64.ref.dll_14637355799325190999.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.SysrootPackage.Editor.ref.dll_4317818938763590068.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.TextMeshPro.Editor.ref.dll_17064876043373906270.movedfrom
@@ -8,6 +17,8 @@ Library\Bee\artifacts\movedfrom\Unity.Timeline.Editor.ref.dll_693070422429259487
 Library\Bee\artifacts\movedfrom\Unity.Timeline.ref.dll_11094804447753086567.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.Toolchain.Win-x86_64-Linux-x86_64.ref.dll_15170327413372981136.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.VSCode.Editor.ref.dll_4675184260683134401.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.VisualEffectGraph.Editor.ref.dll_6230535756353665668.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.VisualEffectGraph.Runtime.ref.dll_10368372385577805159.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.VisualScripting.Core.Editor.ref.dll_15596975270921857701.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.VisualScripting.Core.ref.dll_9059158677137522124.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.VisualScripting.Flow.Editor.ref.dll_6171197089401796070.movedfrom
