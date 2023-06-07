@@ -1,33 +1,100 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/andre/Source/Repos/TwitchTanks/TwitchTanksUnity/Packages/manifest.json
+    m_FilePath: C:/Users/Brrainz/Source/Repos/TwitchTanks/TwitchTanksUnity/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637735438330528379
-    m_Hash: 745832552
+      ticks: 638217604941563097
+    m_Hash: 1519260373
   m_LockFileStatus:
-    m_FilePath: C:/Users/andre/Source/Repos/TwitchTanks/TwitchTanksUnity/Packages/packages-lock.json
+    m_FilePath: C:/Users/Brrainz/Source/Repos/TwitchTanks/TwitchTanksUnity/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637735438330608376
-    m_Hash: 2600608018
+      ticks: 638217605441933896
+    m_Hash: 245621971
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/andre/Source/Repos/TwitchTanks/TwitchTanksUnity/Packages
-m_EditorVersion: 2021.1.17f1 (03b40fe07a36)
+m_ProjectPath: C:/Users/Brrainz/Source/Repos/TwitchTanks/TwitchTanksUnity/Packages
+m_EditorVersion: 2022.3.1f1 (f18e0c1b5784)
 m_ResolvedPackages:
-- packageId: com.unity.collab-proxy@1.7.1
+- packageId: com.unity.ai.navigation@1.1.3
   testable: 0
   isDirectDependency: 1
-  version: 1.7.1
+  version: 1.1.3
   source: 1
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.collab-proxy@1.7.1
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.ai.navigation@1.1.3
+  assetPath: Packages/com.unity.ai.navigation
+  name: com.unity.ai.navigation
+  displayName: AI Navigation
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: High-level NavMesh components for building and using NavMeshes at
+    runtime and at edit time.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-exp.1
+    - 1.0.0-exp.2
+    - 1.0.0-exp.3
+    - 1.0.0-exp.4
+    - 1.1.0-pre.1
+    - 1.1.0-pre.2
+    - 1.1.1
+    - 1.1.3
+    - 2.0.0-pre.3
+    compatible:
+    - 1.1.3
+    recommended: 1.1.3
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638173260900000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@1.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
+    revision: 21cc07be635247d730f8d1ef7c1987e222159a45
+    path: 
+  unityLifecycle:
+    version: 1.1.3
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.collab-proxy@2.0.4
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.4
+  source: 1
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.collab-proxy@2.0.4
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -36,12 +103,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Editor
-  type: 
-  description: The Version Control package gives you the ability to use either Collaborate
-    or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic SCM for Unity
-    (beta), a Plastic SCM subscription is required. Learn more about how you can
-    get started for free by visiting plasticscm.com.
-  status: 4
+  type: asset
+  description: The package gives you the ability to use Unity Version Control in
+    the Unity editor. To use Unity Version Control, a subscription is required. Learn
+    more about how you can get started for free by visiting plasticscm.com.
+  status: 0
   errors: []
   versions:
     all:
@@ -74,8 +140,29 @@ m_ResolvedPackages:
     - 1.13.5
     - 1.14.1
     - 1.14.4
+    - 1.14.7
+    - 1.14.9
+    - 1.14.12
+    - 1.14.13
+    - 1.14.15
+    - 1.14.16
+    - 1.14.17
+    - 1.14.18
     - 1.15.1
     - 1.15.4
+    - 1.15.7
+    - 1.15.9
+    - 1.15.12
+    - 1.15.13
+    - 1.15.15
+    - 1.15.16
+    - 1.15.17
+    - 1.15.18
+    - 1.17.0
+    - 1.17.1
+    - 1.17.2
+    - 1.17.6
+    - 1.17.7
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -83,38 +170,22 @@ m_ResolvedPackages:
     - 2.0.0-preview.20
     - 2.0.0-preview.21
     - 2.0.0-preview.22
+    - 2.0.0
+    - 2.0.1
+    - 2.0.3
+    - 2.0.4
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.7.1
-    - 1.8.0
-    - 1.9.0
-    - 1.10.2
-    - 1.11.2
-    - 1.12.5
-    - 1.13.5
-    - 1.14.1
-    - 1.14.4
-    - 1.15.1
-    - 1.15.4
-    - 2.0.0-preview.6
-    - 2.0.0-preview.8
-    - 2.0.0-preview.15
-    - 2.0.0-preview.17
-    - 2.0.0-preview.20
-    - 2.0.0-preview.21
-    - 2.0.0-preview.22
+    - 2.0.4
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.7.1
-  dependencies:
-  - name: com.unity.nuget.newtonsoft-json
-    version: 2.0.0
-  resolvedDependencies:
-  - name: com.unity.nuget.newtonsoft-json
-    version: 2.0.0
+    recommended: 2.0.4
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
   keywords:
   - backup
   - cloud
@@ -122,6 +193,7 @@ m_ResolvedPackages:
   - collaborate
   - collaboration
   - control
+  - devops
   - plastic
   - plasticscm
   - source
@@ -136,28 +208,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637616921650000000
-  documentationUrl: 
+  datePublishedTicks: 638176024310000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 30ef59f552633de9ff0401db4e73ac89982d4ac0
+    revision: dc15ef2ed609e8c19d0525a46c5bf7dd78df8432
     path: 
   unityLifecycle:
-    version: 1.7.1
+    version: 2.0.4
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.7
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.ide.rider@3.0.21
   testable: 0
   isDirectDependency: 1
-  version: 3.0.7
+  version: 3.0.21
   source: 1
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.ide.rider@3.0.7
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.ide.rider@3.0.21
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -166,11 +241,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -199,9 +274,23 @@ m_ResolvedPackages:
     - 3.0.5
     - 3.0.6
     - 3.0.7
+    - 3.0.9
+    - 3.0.10
+    - 3.0.12
+    - 3.0.13
+    - 3.0.14
+    - 3.0.15
+    - 3.0.16
+    - 3.0.17
+    - 3.0.18
+    - 3.0.20
+    - 3.0.21
+    - 3.0.22
     compatible:
-    - 3.0.7
-    verified: 3.0.7
+    - 3.0.21
+    - 3.0.22
+    recommended: 3.0.22
+    deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -216,28 +305,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637572251600000000
-  documentationUrl: 
+  datePublishedTicks: 638175749180000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 3007c42a679bbe2c082c276e8d79279110964553
+    revision: bb7732dcafe867368246b7661dda05368b74dd8e
     path: 
   unityLifecycle:
-    version: 3.0.7
+    version: 3.0.21
     nextVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.12
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.ide.visualstudio@2.0.18
   testable: 0
   isDirectDependency: 1
-  version: 2.0.12
+  version: 2.0.18
   source: 1
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.ide.visualstudio@2.0.12
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.ide.visualstudio@2.0.18
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -246,11 +338,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -270,17 +362,21 @@ m_ResolvedPackages:
     - 2.0.9
     - 2.0.11
     - 2.0.12
+    - 2.0.14
+    - 2.0.15
+    - 2.0.16
+    - 2.0.17
+    - 2.0.18
     compatible:
-    - 2.0.9
-    - 2.0.11
-    - 2.0.12
-    verified: 2.0.12
+    - 2.0.18
+    recommended: 2.0.18
+    deprecated: []
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.30
+    version: 1.1.33
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -295,28 +391,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637720564750000000
-  documentationUrl: 
+  datePublishedTicks: 638173205920000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 8d436ff053b9c59677b5e9799208143553cd02d9
+    revision: 9d3c07127cbe1916b8abbfd18f71fb8d9df8008c
     path: 
   unityLifecycle:
-    version: 2.0.9
+    version: 2.0.18
     nextVersion: 
-- packageId: com.unity.ide.vscode@1.2.4
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.ide.vscode@1.2.5
   testable: 0
   isDirectDependency: 1
-  version: 1.2.4
+  version: 1.2.5
   source: 1
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.ide.vscode@1.2.4
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -325,11 +424,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Code editor integration for supporting Visual Studio Code as code
     editor for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -345,10 +444,11 @@ m_ResolvedPackages:
     - 1.2.2
     - 1.2.3
     - 1.2.4
+    - 1.2.5
     compatible:
-    - 1.2.3
-    - 1.2.4
-    verified: 1.2.4
+    - 1.2.5
+    recommended: 1.2.5
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -359,28 +459,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637660806170000000
+  datePublishedTicks: 637800255360000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: git+https://github.com/Unity-Technologies/com.unity.ide.vscode.git
-    revision: 1f4f605d5c988cb610c372b5c5216c46cc8f5d30
+    url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
+    revision: b0740c80bfc2440527c317109f7c3d9100132722
     path: 
   unityLifecycle:
-    version: 1.2.3
+    version: 1.2.5
     nextVersion: 
-- packageId: com.unity.render-pipelines.high-definition@11.0.0
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.render-pipelines.high-definition@14.0.8
   testable: 0
   isDirectDependency: 1
-  version: 11.0.0
+  version: 14.0.8
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.render-pipelines.high-definition@11.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.render-pipelines.high-definition@14.0.8
   assetPath: Packages/com.unity.render-pipelines.high-definition
   name: com.unity.render-pipelines.high-definition
   displayName: High Definition RP
@@ -396,7 +499,7 @@ m_ResolvedPackages:
     and a configurable hybrid Tile/Cluster deferred/Forward lighting architecture
     and gives you the tools you need to create games, technical demos, animations,
     and more to a high graphical standard.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -492,26 +595,42 @@ m_ResolvedPackages:
     - 10.5.1
     - 10.6.0
     - 10.7.0
-    - 11.0.0
+    - 10.8.0
+    - 10.8.1
+    - 10.9.0
+    - 10.10.0
+    - 10.10.1
+    - 14.0.8
     compatible:
-    - 11.0.0
-    verified: 11.0.0
+    - 14.0.8
+    recommended: 14.0.8
+    deprecated: []
   dependencies:
+  - name: com.unity.mathematics
+    version: 1.2.4
+  - name: com.unity.burst
+    version: 1.8.4
   - name: com.unity.modules.video
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.modules.imageconversion
     version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
   - name: com.unity.render-pipelines.core
-    version: 11.0.0
+    version: 14.0.8
   - name: com.unity.shadergraph
-    version: 11.0.0
+    version: 14.0.8
   - name: com.unity.visualeffectgraph
-    version: 11.0.0
+    version: 14.0.8
   - name: com.unity.render-pipelines.high-definition-config
-    version: 11.0.0
+    version: 14.0.8
   resolvedDependencies:
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.burst
+    version: 1.8.4
   - name: com.unity.modules.video
     version: 1.0.0
   - name: com.unity.modules.audio
@@ -524,22 +643,26 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imageconversion
     version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
   - name: com.unity.render-pipelines.core
-    version: 11.0.0
+    version: 14.0.8
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   - name: com.unity.shadergraph
-    version: 11.0.0
+    version: 14.0.8
   - name: com.unity.searcher
-    version: 4.3.2
+    version: 4.9.2
   - name: com.unity.visualeffectgraph
-    version: 11.0.0
+    version: 14.0.8
   - name: com.unity.render-pipelines.high-definition-config
-    version: 11.0.0
+    version: 14.0.8
   keywords:
   - graphics
   - performance
@@ -547,16 +670,14 @@ m_ResolvedPackages:
   - render
   - pipeline
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -567,14 +688,19 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 11.0.0
+    version: 14.0.8
     nextVersion: 
-- packageId: com.unity.test-framework@1.1.30
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.test-framework@1.1.33
   testable: 0
   isDirectDependency: 1
-  version: 1.1.30
+  version: 1.1.33
   source: 1
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.test-framework@1.1.30
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -583,9 +709,9 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: 
+  type: asset
   description: Test framework for running Edit mode and Play mode tests in Unity.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -621,11 +747,32 @@ m_ResolvedPackages:
     - 1.1.27
     - 1.1.29
     - 1.1.30
+    - 1.1.31
+    - 1.1.33
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 2.0.1-exp.1
+    - 2.0.1-exp.2
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
     compatible:
-    - 1.1.27
-    - 1.1.29
-    - 1.1.30
-    verified: 1.1.30
+    - 1.1.33
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 2.0.1-exp.1
+    - 2.0.1-exp.2
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
+    recommended: 1.1.33
+    deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -650,28 +797,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637702469360000000
+  datePublishedTicks: 637938212700000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: 4a3f541cb46e2f6875b3a938daba8c7113020873
+    revision: 34a4d423d64926635eb36d3bb86276179cc186e1
     path: 
   unityLifecycle:
-    version: 1.1.27
+    version: 1.1.33
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.textmeshpro@3.0.6
   testable: 0
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -680,7 +830,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Text Rendering
-  type: 
+  type: asset
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -701,7 +851,7 @@ m_ResolvedPackages:
     Great performance. Since the geometry created by TextMeshPro
     uses two triangles per character just like Unity''s text components, this improved
     visual quality and flexibility comes at no additional performance cost.'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -767,6 +917,7 @@ m_ResolvedPackages:
     - 2.1.6
     - 2.2.0-preview.1
     - 2.2.0-preview.2
+    - 2.2.0-preview.3
     - 3.0.0-preview.1
     - 3.0.0-preview.3
     - 3.0.0-preview.4
@@ -786,12 +937,20 @@ m_ResolvedPackages:
     - 3.0.6
     - 3.2.0-pre.1
     - 3.2.0-pre.2
+    - 3.2.0-pre.3
+    - 3.2.0-pre.4
     - 4.0.0-pre.1
+    - 4.0.0-pre.2
     compatible:
     - 3.0.6
     - 3.2.0-pre.1
     - 3.2.0-pre.2
-    verified: 3.0.6
+    - 3.2.0-pre.3
+    - 3.2.0-pre.4
+    - 4.0.0-pre.1
+    - 4.0.0-pre.2
+    recommended: 3.0.6
+    deprecated: []
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -815,10 +974,8 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637547111200000000
   documentationUrl: 
@@ -831,12 +988,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.6
     nextVersion: 
-- packageId: com.unity.timeline@1.5.7
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.timeline@1.7.4
   testable: 0
   isDirectDependency: 1
-  version: 1.5.7
+  version: 1.7.4
   source: 1
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.timeline@1.5.7
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.timeline@1.7.4
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -845,10 +1007,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -919,19 +1081,27 @@ m_ResolvedPackages:
     - 1.6.1
     - 1.6.2
     - 1.6.3
+    - 1.6.4
+    - 1.6.5
     - 1.7.0-pre.1
+    - 1.7.0-pre.2
+    - 1.7.0
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.4
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.8.3
     compatible:
-    - 1.5.6
-    - 1.5.7
-    - 1.6.0-pre.1
-    - 1.6.0-pre.3
-    - 1.6.0-pre.4
-    - 1.6.0-pre.5
-    - 1.6.1
-    - 1.6.2
-    - 1.6.3
-    - 1.7.0-pre.1
-    verified: 1.5.7
+    - 1.7.4
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.8.3
+    recommended: 1.7.4
+    deprecated: []
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -963,28 +1133,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637704360510000000
-  documentationUrl: 
+  datePublishedTicks: 638143790870000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: b0c6687b4bae7608c23b04edd20e0b8002476c6f
+    revision: 1f458a5d3f2bc66f0c1182feeaa9fcea4e8b1496
     path: 
   unityLifecycle:
-    version: 1.5.6
+    version: 1.7.4
     nextVersion: 
-- packageId: com.unity.toolchain.win-x86_64-linux-x86_64@0.1.21-preview
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.toolchain.win-x86_64-linux-x86_64@2.0.4
   testable: 0
   isDirectDependency: 1
-  version: 0.1.21-preview
+  version: 2.0.4
   source: 1
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.toolchain.win-x86_64-linux-x86_64@0.1.21-preview
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.toolchain.win-x86_64-linux-x86_64@2.0.4
   assetPath: Packages/com.unity.toolchain.win-x86_64-linux-x86_64
   name: com.unity.toolchain.win-x86_64-linux-x86_64
   displayName: Toolchain Win Linux x64
@@ -993,10 +1166,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Cross-compilation toolchain to build player target Linux x86_64 on
     host Windows x86_64
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -1017,35 +1190,28 @@ m_ResolvedPackages:
     - 0.1.19-preview
     - 0.1.20-preview
     - 0.1.21-preview
+    - 1.0.0
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
     compatible:
-    - 0.1.4-preview
-    - 0.1.5-preview
-    - 0.1.6-preview
-    - 0.1.7-preview
-    - 0.1.8-preview
-    - 0.1.9-preview
-    - 0.1.10-preview
-    - 0.1.11-preview
-    - 0.1.13-preview
-    - 0.1.14-preview
-    - 0.1.15-preview
-    - 0.1.16-preview
-    - 0.1.17-preview
-    - 0.1.18-preview
-    - 0.1.19-preview
-    - 0.1.20-preview
-    - 0.1.21-preview
-    verified: 
+    - 2.0.4
+    - 2.0.5
+    recommended: 2.0.5
+    deprecated: []
   dependencies:
   - name: com.unity.sysroot
-    version: 0.1.19-preview
+    version: 2.0.5
   - name: com.unity.sysroot.linux-x86_64
-    version: 0.1.14-preview
+    version: 2.0.4
   resolvedDependencies:
   - name: com.unity.sysroot
-    version: 0.1.19-preview
+    version: 2.0.5
   - name: com.unity.sysroot.linux-x86_64
-    version: 0.1.14-preview
+    version: 2.0.4
   keywords:
   - toolchain
   - windows
@@ -1058,28 +1224,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637619741380000000
-  documentationUrl: 
+  datePublishedTicks: 638067882890000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.toolchain.win-x86_64-linux-x86_64@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
-    url: git+https://github.com/Unity-Technologies/com.unity.sysroot.git
-    revision: c23b9fb202dceb7b518aa7353d96a3e2eae227c5
+    url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+    revision: 06af5d019fed618daef07b5db278be147aed574b
     path: 
   unityLifecycle:
-    version: 
+    version: 2.0.4
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1093,14 +1262,16 @@ m_ResolvedPackages:
     and applications. It is a GameObject-based UI system that uses Components and
     the Game View to arrange, position, and style user interfaces. \u200B You cannot
     use Unity UI to create or change user interfaces in the Unity Editor."
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
+    - 3.0.0-exp.1
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -1117,16 +1288,14 @@ m_ResolvedPackages:
   - Unity UI
   - Canvas
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1139,12 +1308,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.visualscripting@1.6.1
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.visualscripting@1.8.0
   testable: 0
   isDirectDependency: 1
-  version: 1.6.1
+  version: 1.8.0
   source: 1
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.visualscripting@1.6.1
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.visualscripting@1.8.0
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1153,15 +1327,20 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
-  description: "Visual Scripting, previously known as BOLT, is an alternative workflow
-    to design behaviours. Instead of the classic method of writing a C# script, visual
-    scripting offers a way to design behaviours intuitively without code, by connecting
-    events, actions, and data together in a graph. \n\nBoth programmers and non-programmers
-    can use node-based graphs to design final logic or to quickly create prototypes.
-    This package also features an API that programmers can use for more advanced
-    tasks, or to create custom nodes that can be used by other team members."
-  status: 4
+  type: tool
+  description: 'Visual scripting is a workflow that uses visual, node-based graphs
+    to design behaviors rather than write lines of C# script.
+
+
+    Enabling artists,
+    designers and programmers alike, visual scripting can be used to design final
+    logic, quickly create prototypes, iterate on gameplay and create custom nodes
+    to help streamline collaboration.
+
+
+    Visual scripting is compatible with third-party
+    APIs, including most packages, assets and custom libraries.'
+  status: 0
   errors: []
   versions:
     all:
@@ -1178,29 +1357,19 @@ m_ResolvedPackages:
     - 1.7.3
     - 1.7.5
     - 1.7.6
+    - 1.7.7
+    - 1.7.8
     - 1.8.0-pre.1
+    - 1.8.0
     compatible:
-    - 1.6.1
-    - 1.7.1
-    - 1.7.2
-    - 1.7.3
-    - 1.7.5
-    - 1.7.6
-    verified: 1.6.1
+    - 1.8.0
+    recommended: 1.8.0
+    deprecated:
+    - 1.8.0-pre.1
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
-  - name: com.unity.modules.ai
-    version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
   - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.particlesystem
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.physics2d
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.ugui
@@ -1209,17 +1378,7 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.modules.ai
-    version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
   - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.particlesystem
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.physics2d
     version: 1.0.0
   keywords: []
   registry:
@@ -1229,28 +1388,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637547228050000000
+  datePublishedTicks: 638060044680000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: d2dc8205ed231b4fc18289dddb14c0a92c76154f
+    revision: 0de66378b19e990494d98f39ecc2b6aa5ac65351
     path: 
   unityLifecycle:
-    version: 1.6.1
+    version: 1.8.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: jp.keijiro.klak.spout@2.0.3
   testable: 0
   isDirectDependency: 1
   version: 2.0.3
   source: 1
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\jp.keijiro.klak.spout@2.0.3
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\jp.keijiro.klak.spout@2.0.3
   assetPath: Packages/jp.keijiro.klak.spout
   name: jp.keijiro.klak.spout
   displayName: KlakSpout
@@ -1261,7 +1423,7 @@ m_ResolvedPackages:
   category: 
   type: 
   description: Cross-process texture sharing plugin (Spout protocol)
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -1278,7 +1440,8 @@ m_ResolvedPackages:
     - 2.0.1
     - 2.0.2
     - 2.0.3
-    verified: 
+    recommended: 
+    deprecated: []
   dependencies:
   - name: com.unity.modules.screencapture
     version: 1.0.0
@@ -1290,17 +1453,15 @@ m_ResolvedPackages:
   keywords:
   - unity
   registry:
-    id: scoped:Keijiro
+    id: scoped:project:Keijiro
     name: Keijiro
     url: https://registry.npmjs.com
     scopes:
     - jp.keijiro
     isDefault: 0
     capabilities: 0
-  hasRegistry: 1
+    configSource: 4
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637634904256120000
   documentationUrl: 
@@ -1313,12 +1474,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1330,28 +1496,27 @@ m_ResolvedPackages:
   type: module
   description: 'The AI module implements the path finding features in Unity. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.AIModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1364,12 +1529,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1380,28 +1550,27 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 'AndroidJNI module allows you to call Java code. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AndroidJNIModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1414,12 +1583,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1431,28 +1605,27 @@ m_ResolvedPackages:
   type: module
   description: 'The Animation module implements Unity''s animation system. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.AnimationModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1465,12 +1638,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1482,28 +1660,27 @@ m_ResolvedPackages:
   type: module
   description: 'The AssetBundle module implements the AssetBundle class and related
     APIs to load data from AssetBundles. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AssetBundleModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1516,12 +1693,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1533,28 +1715,27 @@ m_ResolvedPackages:
   type: module
   description: 'The Audio module implements Unity''s audio system. Scripting API:
     https://docs.unity3d.com/ScriptReference/UnityEngine.AudioModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1567,12 +1748,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1584,14 +1770,15 @@ m_ResolvedPackages:
   type: module
   description: 'The Cloth module implements cloth physics simulation through the
     Cloth component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ClothModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -1600,16 +1787,14 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1622,12 +1807,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1639,14 +1829,15 @@ m_ResolvedPackages:
   type: module
   description: 'The Director module implements the PlayableDirector class. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.DirectorModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.audio
     version: 1.0.0
@@ -1659,16 +1850,14 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1681,12 +1870,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1699,28 +1893,27 @@ m_ResolvedPackages:
   description: 'The ImageConversion module implements the ImageConversion class which
     provides helper methods to convert images from and to PNG, JPEG or EXR formats.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ImageConversionModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1733,12 +1926,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1750,28 +1948,27 @@ m_ResolvedPackages:
   type: module
   description: 'The IMGUI module provides Unity''s immediate mode GUI solution for
     creating in-game and editor user interfaces. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.IMGUIModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1784,12 +1981,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1801,28 +2003,27 @@ m_ResolvedPackages:
   type: module
   description: 'The JSONSerialize module provides the JsonUtility class which lets
     you serialize Unity Objects to JSON format. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.JSONSerializeModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1835,12 +2036,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1852,28 +2058,27 @@ m_ResolvedPackages:
   type: module
   description: 'The ParticleSystem module implements Unity''s Particle System. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.ParticleSystemModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1886,12 +2091,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1903,28 +2113,27 @@ m_ResolvedPackages:
   type: module
   description: 'The Physics module implements 3D physics in Unity. Scripting API:
     https://docs.unity3d.com/ScriptReference/UnityEngine.PhysicsModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1937,12 +2146,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1954,28 +2168,27 @@ m_ResolvedPackages:
   type: module
   description: 'The Physics2d module implements 2D physics in Unity. Scripting API:
     https://docs.unity3d.com/ScriptReference/UnityEngine.Physics2DModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1988,12 +2201,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2005,14 +2223,15 @@ m_ResolvedPackages:
   type: module
   description: 'The ScreenCapture module provides functionality to take screen shots
     using the ScreenCapture class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ScreenCaptureModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.imageconversion
     version: 1.0.0
@@ -2021,16 +2240,14 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2043,12 +2260,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2060,28 +2282,27 @@ m_ResolvedPackages:
   type: module
   description: 'The Terrain module implements Unity''s Terrain rendering engine available
     through the Terrain component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2094,12 +2315,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2111,14 +2337,15 @@ m_ResolvedPackages:
   type: module
   description: 'The TerrainPhysics module connects the Terrain and Physics modules
     by implementing the TerrainCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainPhysicsModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -2131,16 +2358,14 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2153,12 +2378,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2169,14 +2399,15 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 'The Tilemap module implements the Tilemap class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TilemapModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics2d
     version: 1.0.0
@@ -2185,16 +2416,14 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2207,12 +2436,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2224,28 +2458,27 @@ m_ResolvedPackages:
   type: module
   description: 'The UI module implements basic components required for Unity''s UI
     system Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2258,12 +2491,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2275,22 +2513,21 @@ m_ResolvedPackages:
   type: module
   description: 'The UIElements module implements the UIElements retained mode UI
     framework. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIElementsModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.uielementsnative
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.ui
@@ -2299,20 +2536,16 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
-  - name: com.unity.modules.uielementsnative
-    version: 1.0.0
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2325,12 +2558,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2342,28 +2580,27 @@ m_ResolvedPackages:
   type: module
   description: 'The Umbra module implements Unity''s occlusion culling system. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.UmbraModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2376,12 +2613,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2393,14 +2635,15 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityAnalytics module implements APIs required to use Unity Analytics.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityAnalyticsModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2413,16 +2656,14 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2435,12 +2676,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2452,28 +2698,27 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequest module lets you communicate with http services.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2486,12 +2731,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2503,14 +2753,15 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestAssetBundle module provides the DownloadHandlerAssetBundle
     class to use UnityWebRequest to download Asset Bundles. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAssetBundleModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.assetbundle
     version: 1.0.0
@@ -2523,16 +2774,14 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2545,12 +2794,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2562,14 +2816,15 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestAudio module provides the DownloadHandlerAudioClip
     class to use UnityWebRequest to download AudioClips. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAudioModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2582,16 +2837,14 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2604,12 +2857,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2621,14 +2879,15 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestTexture module provides the DownloadHandlerTexture
     class to use UnityWebRequest to download Textures. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestTextureModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2641,16 +2900,14 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2663,12 +2920,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2680,14 +2942,15 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestWWW module implements the legacy WWW lets you
     communicate with http services. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestWWWModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2716,16 +2979,14 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2738,12 +2999,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2755,14 +3021,15 @@ m_ResolvedPackages:
   type: module
   description: 'The Vehicles module implements vehicle physics simulation through
     the WheelCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VehiclesModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -2771,16 +3038,14 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2793,12 +3058,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2810,14 +3080,15 @@ m_ResolvedPackages:
   type: module
   description: 'The Video module lets you play back video files in your content.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VideoModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.audio
     version: 1.0.0
@@ -2834,16 +3105,14 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2856,12 +3125,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2873,14 +3147,15 @@ m_ResolvedPackages:
   type: module
   description: 'The VR module implements support for virtual reality devices in Unity.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VRModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -2899,16 +3174,14 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2921,12 +3194,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2938,28 +3216,27 @@ m_ResolvedPackages:
   type: module
   description: 'The Wind module implements the WindZone component which can affect
     terrain rendering and particle simulations. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.WindModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2972,12 +3249,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -2989,14 +3271,15 @@ m_ResolvedPackages:
   type: module
   description: 'The XR module contains the VR and AR related platform support functionality.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.XRModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -3013,16 +3296,14 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3035,12 +3316,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3052,14 +3338,15 @@ m_ResolvedPackages:
   type: module
   description: 'The Subsystem module contains the definitions and runtime support
     for general subsystems in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.SubsystemsModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
     - 1.0.0
     compatible:
     - 1.0.0
-    verified: 1.0.0
+    recommended: 1.0.0
+    deprecated: []
   dependencies:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -3068,16 +3355,14 @@ m_ResolvedPackages:
     version: 1.0.0
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3090,74 +3375,17 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.unity.modules.uielementsnative@1.0.0
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.sysroot@2.0.5
   testable: 0
   isDirectDependency: 0
-  version: 1.0.0
-  source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
-  assetPath: Packages/com.unity.modules.uielementsnative
-  name: com.unity.modules.uielementsnative
-  displayName: UIElements Native
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: module
-  description: 
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    verified: 1.0.0
-  dependencies:
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: 
-    name: 
-    url: 
-    scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
-- packageId: com.unity.sysroot@0.1.19-preview
-  testable: 0
-  isDirectDependency: 0
-  version: 0.1.19-preview
+  version: 2.0.5
   source: 1
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.sysroot@0.1.19-preview
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.sysroot@2.0.5
   assetPath: Packages/com.unity.sysroot
   name: com.unity.sysroot
   displayName: Sysroot Base
@@ -3166,10 +3394,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: This is the base sysroot package required by all sysroot and toolchain
     packages
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3185,20 +3413,18 @@ m_ResolvedPackages:
     - 0.1.17-preview
     - 0.1.18-preview
     - 0.1.19-preview
+    - 1.0.0
+    - 2.0.0
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
     compatible:
-    - 0.1.7-preview
-    - 0.1.8-preview
-    - 0.1.9-preview
-    - 0.1.10-preview
-    - 0.1.11-preview
-    - 0.1.12-preview
-    - 0.1.14-preview
-    - 0.1.15-preview
-    - 0.1.16-preview
-    - 0.1.17-preview
-    - 0.1.18-preview
-    - 0.1.19-preview
-    verified: 
+    - 2.0.5
+    - 2.0.6
+    recommended: 2.0.6
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -3212,28 +3438,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637497460110000000
-  documentationUrl: 
+  datePublishedTicks: 638067882470000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.sysroot@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
-    url: git+https://github.com/Unity-Technologies/com.unity.sysroot.git
-    revision: 8717ab9c5b4f758bc542184e1872ed3fcce1e1f9
+    url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+    revision: 06af5d019fed618daef07b5db278be147aed574b
     path: 
   unityLifecycle:
-    version: 
+    version: 2.0.5
     nextVersion: 
-- packageId: com.unity.sysroot.linux-x86_64@0.1.14-preview
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.sysroot.linux-x86_64@2.0.4
   testable: 0
   isDirectDependency: 0
-  version: 0.1.14-preview
+  version: 2.0.4
   source: 1
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.sysroot.linux-x86_64@0.1.14-preview
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.sysroot.linux-x86_64@2.0.4
   assetPath: Packages/com.unity.sysroot.linux-x86_64
   name: com.unity.sysroot.linux-x86_64
   displayName: Sysroot Linux x64
@@ -3242,9 +3471,9 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Sysroot used to build unity player for linux x86_64
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3258,24 +3487,24 @@ m_ResolvedPackages:
     - 0.1.13-preview
     - 0.1.14-preview
     - 0.1.15-preview
+    - 1.0.0
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
     compatible:
-    - 0.1.6-preview
-    - 0.1.7-preview
-    - 0.1.8-preview
-    - 0.1.9-preview
-    - 0.1.10-preview
-    - 0.1.11-preview
-    - 0.1.12-preview
-    - 0.1.13-preview
-    - 0.1.14-preview
-    - 0.1.15-preview
-    verified: 
+    - 2.0.4
+    - 2.0.5
+    recommended: 2.0.5
+    deprecated: []
   dependencies:
   - name: com.unity.sysroot
-    version: 0.1.18-preview
+    version: 2.0.5
   resolvedDependencies:
   - name: com.unity.sysroot
-    version: 0.1.19-preview
+    version: 2.0.5
   keywords:
   - unity
   - linux
@@ -3287,28 +3516,31 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637460700410000000
-  documentationUrl: 
+  datePublishedTicks: 638067882520000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.sysroot.linux-x86_64@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
-    url: git+https://github.com/Unity-Technologies/com.unity.sysroot.git
-    revision: 0d5e7b07c95f3ae15d6d80931a071b042e97189b
+    url: https://github.com/Unity-Technologies/com.unity.sysroot.git
+    revision: 06af5d019fed618daef07b5db278be147aed574b
     path: 
   unityLifecycle:
-    version: 
+    version: 2.0.4
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ext.nunit@1.0.6
   testable: 0
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3317,10 +3549,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Libraries
-  type: 
+  type: asset
   description: Custom version of the nunit package build to work with Unity. Used
     by the Unity Test Framework.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3330,9 +3562,14 @@ m_ResolvedPackages:
     - 1.0.0
     - 1.0.5
     - 1.0.6
+    - 2.0.2
+    - 2.0.3
     compatible:
     - 1.0.6
-    verified: 1.0.6
+    - 2.0.2
+    - 2.0.3
+    recommended: 1.0.6
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -3346,10 +3583,8 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637429759280000000
   documentationUrl: 
@@ -3362,12 +3597,268 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.6
     nextVersion: 
-- packageId: com.unity.render-pipelines.core@11.0.0
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.mathematics@1.2.6
   testable: 0
   isDirectDependency: 0
-  version: 11.0.0
+  version: 1.2.6
+  source: 1
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.mathematics@1.2.6
+  assetPath: Packages/com.unity.mathematics
+  name: com.unity.mathematics
+  displayName: Mathematics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: Unity's C# SIMD math library providing vector types and math functions
+    with a shader like syntax.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
+    - 1.0.1
+    - 1.1.0-preview.1
+    - 1.1.0
+    - 1.2.1
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    compatible:
+    - 1.2.6
+    recommended: 1.2.6
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637841876140000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
+    revision: f110c8c230d253654afed153569030a587cc7557
+    path: 
+  unityLifecycle:
+    version: 1.2.6
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.burst@1.8.4
+  testable: 0
+  isDirectDependency: 0
+  version: 1.8.4
+  source: 1
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.burst@1.8.4
+  assetPath: Packages/com.unity.burst
+  name: com.unity.burst
+  displayName: Burst
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: Burst is a compiler that translates from IL/.NET bytecode to highly
+    optimized native code using LLVM.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.2.4-preview.5
+    - 0.2.4-preview.7
+    - 0.2.4-preview.11
+    - 0.2.4-preview.12
+    - 0.2.4-preview.13
+    - 0.2.4-preview.14
+    - 0.2.4-preview.15
+    - 0.2.4-preview.16
+    - 0.2.4-preview.17
+    - 0.2.4-preview.18
+    - 0.2.4-preview.19
+    - 0.2.4-preview.20
+    - 0.2.4-preview.21
+    - 0.2.4-preview.22
+    - 0.2.4-preview.23
+    - 0.2.4-preview.24
+    - 0.2.4-preview.25
+    - 0.2.4-preview.30
+    - 0.2.4-preview.31
+    - 0.2.4-preview.33
+    - 0.2.4-preview.34
+    - 0.2.4-preview.37
+    - 0.2.4-preview.41
+    - 0.2.4-preview.45
+    - 0.2.4-preview.48
+    - 0.2.4-preview.50
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.0-preview.4
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3-preview.3
+    - 1.2.0-preview.1
+    - 1.2.0-preview.5
+    - 1.2.0-preview.6
+    - 1.2.0-preview.8
+    - 1.2.0-preview.9
+    - 1.2.0-preview.10
+    - 1.2.0-preview.11
+    - 1.2.0-preview.12
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.3.0-preview.1
+    - 1.3.0-preview.2
+    - 1.3.0-preview.3
+    - 1.3.0-preview.4
+    - 1.3.0-preview.5
+    - 1.3.0-preview.6
+    - 1.3.0-preview.7
+    - 1.3.0-preview.8
+    - 1.3.0-preview.9
+    - 1.3.0-preview.10
+    - 1.3.0-preview.11
+    - 1.3.0-preview.12
+    - 1.3.0-preview.13
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.0-pre.1
+    - 1.4.0-preview.1
+    - 1.4.0-preview.2
+    - 1.4.0-preview.3
+    - 1.4.0-preview.4
+    - 1.4.0-preview.5
+    - 1.4.1-pre.1
+    - 1.4.1-pre.2
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4-preview.1
+    - 1.4.4-preview.2
+    - 1.4.4
+    - 1.4.5
+    - 1.4.6
+    - 1.4.7
+    - 1.4.8
+    - 1.4.9
+    - 1.4.11
+    - 1.5.0-pre.3
+    - 1.5.0-pre.4
+    - 1.5.0-pre.5
+    - 1.5.0
+    - 1.5.1
+    - 1.5.2
+    - 1.5.3
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6-preview.1
+    - 1.5.6
+    - 1.6.0-pre.2
+    - 1.6.0-pre.3
+    - 1.6.0-pre.4
+    - 1.6.0
+    - 1.6.1
+    - 1.6.2
+    - 1.6.3
+    - 1.6.4
+    - 1.6.5
+    - 1.6.6
+    - 1.7.0-pre.1
+    - 1.7.0
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.4
+    - 1.8.0-pre.1
+    - 1.8.0-pre.2
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.8.3
+    - 1.8.4
+    compatible:
+    - 1.8.4
+    recommended: 1.8.4
+    deprecated: []
+  dependencies:
+  - name: com.unity.mathematics
+    version: 1.2.1
+  resolvedDependencies:
+  - name: com.unity.mathematics
+    version: 1.2.6
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638150963640000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: git@github.cds.internal.unity3d.com:unity/burst
+    revision: b05f7d57a035997c1abc0c742e812dadd107d467
+    path: 
+  unityLifecycle:
+    version: 1.8.4
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.render-pipelines.core@14.0.8
+  testable: 0
+  isDirectDependency: 0
+  version: 14.0.8
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.render-pipelines.core@11.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.render-pipelines.core@14.0.8
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -3384,7 +3875,7 @@ m_ResolvedPackages:
     Render Pipeline (HDRP) and Universal Render Pipeline (URP). If you are creating
     a custom SRP from scratch or customizing a prebuilt SRP, using SRP Core will
     save you time.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3481,14 +3972,24 @@ m_ResolvedPackages:
     - 10.5.1
     - 10.6.0
     - 10.7.0
-    - 11.0.0
+    - 10.8.0
+    - 10.8.1
+    - 10.9.0
+    - 10.10.0
+    - 10.10.1
+    - 14.0.8
     compatible:
-    - 11.0.0
-    verified: 11.0.0
+    - 14.0.8
+    recommended: 14.0.8
+    deprecated: []
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.ugui
@@ -3499,18 +4000,20 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3521,14 +4024,19 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 11.0.0
+    version: 14.0.8
     nextVersion: 
-- packageId: com.unity.shadergraph@11.0.0
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.shadergraph@14.0.8
   testable: 0
   isDirectDependency: 0
-  version: 11.0.0
+  version: 14.0.8
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.shadergraph@11.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.shadergraph@14.0.8
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -3543,7 +4051,7 @@ m_ResolvedPackages:
     Specific render pipelines can implement specific graph features. Currently, both
     the High Definition Rendering Pipeline and the Universal Rendering Pipeline support
     Shader Graph.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3639,18 +4147,24 @@ m_ResolvedPackages:
     - 10.5.1
     - 10.6.0
     - 10.7.0
-    - 11.0.0
+    - 10.8.0
+    - 10.8.1
+    - 10.9.0
+    - 10.10.0
+    - 10.10.1
+    - 14.0.8
     compatible:
-    - 11.0.0
-    verified: 11.0.0
+    - 14.0.8
+    recommended: 14.0.8
+    deprecated: []
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 11.0.0
+    version: 14.0.8
   - name: com.unity.searcher
-    version: 4.3.1
+    version: 4.9.2
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 11.0.0
+    version: 14.0.8
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -3659,20 +4173,22 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   - name: com.unity.searcher
-    version: 4.3.2
+    version: 4.9.2
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3683,14 +4199,19 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 11.0.0
+    version: 14.0.8
     nextVersion: 
-- packageId: com.unity.visualeffectgraph@11.0.0
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.visualeffectgraph@14.0.8
   testable: 0
   isDirectDependency: 0
-  version: 11.0.0
+  version: 14.0.8
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.visualeffectgraph@11.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.visualeffectgraph@14.0.8
   assetPath: Packages/com.unity.visualeffectgraph
   name: com.unity.visualeffectgraph
   displayName: Visual Effect Graph
@@ -3705,7 +4226,7 @@ m_ResolvedPackages:
     the GPU. The Visual Effect Graph is production-ready for the High Definition
     Render Pipeline and runs on all platforms supported by it. Full support for the
     Universal Render Pipeline and compatible mobile devices is still in development.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3770,20 +4291,26 @@ m_ResolvedPackages:
     - 10.5.1
     - 10.6.0
     - 10.7.0
-    - 11.0.0
+    - 10.8.0
+    - 10.8.1
+    - 10.9.0
+    - 10.10.0
+    - 10.10.1
+    - 14.0.8
     compatible:
-    - 11.0.0
-    verified: 11.0.0
+    - 14.0.8
+    recommended: 14.0.8
+    deprecated: []
   dependencies:
   - name: com.unity.shadergraph
-    version: 11.0.0
+    version: 14.0.8
   - name: com.unity.render-pipelines.core
-    version: 11.0.0
+    version: 14.0.8
   resolvedDependencies:
   - name: com.unity.shadergraph
-    version: 11.0.0
+    version: 14.0.8
   - name: com.unity.render-pipelines.core
-    version: 11.0.0
+    version: 14.0.8
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -3792,8 +4319,12 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   - name: com.unity.searcher
-    version: 4.3.2
+    version: 4.9.2
   keywords:
   - vfx
   - visualeffect
@@ -3801,16 +4332,14 @@ m_ResolvedPackages:
   - effect
   - particles
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3821,14 +4350,19 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 11.0.0
+    version: 14.0.8
     nextVersion: 
-- packageId: com.unity.render-pipelines.high-definition-config@11.0.0
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.render-pipelines.high-definition-config@14.0.8
   testable: 0
   isDirectDependency: 0
-  version: 11.0.0
+  version: 14.0.8
   source: 2
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.render-pipelines.high-definition-config@11.0.0
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.render-pipelines.high-definition-config@14.0.8
   assetPath: Packages/com.unity.render-pipelines.high-definition-config
   name: com.unity.render-pipelines.high-definition-config
   displayName: High Definition RP Config
@@ -3839,7 +4373,7 @@ m_ResolvedPackages:
   category: 
   type: 
   description: Configuration files for the High Definition Render Pipeline.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3859,6 +4393,10 @@ m_ResolvedPackages:
     - 7.4.3
     - 7.5.1
     - 7.5.2
+    - 7.5.3
+    - 7.6.0
+    - 7.7.0
+    - 7.7.1
     - 8.0.1
     - 8.1.0
     - 8.2.0
@@ -3872,16 +4410,29 @@ m_ResolvedPackages:
     - 10.2.0
     - 10.2.1
     - 10.2.2
-    - 11.0.0
+    - 10.3.1
+    - 10.3.2
+    - 10.4.0
+    - 10.5.0
+    - 10.5.1
+    - 10.6.0
+    - 10.7.0
+    - 10.8.0
+    - 10.8.1
+    - 10.9.0
+    - 10.10.0
+    - 10.10.1
+    - 14.0.8
     compatible:
-    - 11.0.0
-    verified: 11.0.0
+    - 14.0.8
+    recommended: 14.0.8
+    deprecated: []
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 11.0.0
+    version: 14.0.8
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 11.0.0
+    version: 14.0.8
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -3890,18 +4441,20 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   keywords: []
   registry:
-    id: 
+    id: main
     name: 
-    url: 
+    url: https://packages.unity.com
     scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
   hideInEditor: 1
-  entitlements:
-    isAllowed: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3912,85 +4465,19 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 11.0.0
+    version: 14.0.8
     nextVersion: 
-- packageId: com.unity.nuget.newtonsoft-json@2.0.0
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.searcher@4.9.2
   testable: 0
   isDirectDependency: 0
-  version: 2.0.0
+  version: 4.9.2
   source: 1
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
-  assetPath: Packages/com.unity.nuget.newtonsoft-json
-  name: com.unity.nuget.newtonsoft-json
-  displayName: Newtonsoft Json
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
-    synced to version 12.0.2.
-
-
-    This package is used for advanced json serialization
-    and deserialization. Most Unity users will be better suited using the existing
-    json tools built into Unity.
-
-    To avoid assembly clashes, please use this
-    package if you intend to use Newtonsoft Json.'
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.0-preview.2
-    - 1.0.0-preview.3
-    - 1.0.0-preview.4
-    - 1.0.1-preview.1
-    - 1.1.2
-    - 2.0.0-preview
-    - 2.0.0-preview.1
-    - 2.0.0-preview.2
-    - 2.0.0
-    - 2.0.1-preview.1
-    - 2.0.2
-    compatible:
-    - 2.0.0
-    - 2.0.1-preview.1
-    - 2.0.2
-    verified: 2.0.2
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637237898320000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
-    revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
-    path: 
-  unityLifecycle:
-    version: 2.0.0
-    nextVersion: 
-- packageId: com.unity.searcher@4.3.2
-  testable: 0
-  isDirectDependency: 0
-  version: 4.3.2
-  source: 1
-  resolvedPath: C:\Users\andre\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.searcher@4.3.2
+  resolvedPath: C:\Users\Brrainz\Source\Repos\TwitchTanks\TwitchTanksUnity\Library\PackageCache\com.unity.searcher@4.9.2
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -3999,10 +4486,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: General search window for use in the Editor. First target use is for
     GraphView node search.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -4021,12 +4508,11 @@ m_ResolvedPackages:
     - 4.6.0-preview
     - 4.7.0-preview
     - 4.9.1
+    - 4.9.2
     compatible:
-    - 4.3.2
-    - 4.6.0-preview
-    - 4.7.0-preview
-    - 4.9.1
-    verified: 4.3.2
+    - 4.9.2
+    recommended: 4.9.2
+    deprecated: []
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -4039,19 +4525,22 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637509898070000000
+  datePublishedTicks: 637831252240000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
-    revision: 798bfb84c8f09f7788a3a88c3c16d72c50451530
+    revision: 7f9f75b04e97cf09c8ddc3968d059e74d6a2460a
     path: 
   unityLifecycle:
-    version: 4.3.2
+    version: 4.9.2
     nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
